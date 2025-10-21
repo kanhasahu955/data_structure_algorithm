@@ -8,4 +8,4 @@ function reverseNumber(num) {
   return reversed;
 }
 
-console.log(reverseNumber(12345))
+console.log(reverseNumber(12345)) // 54321
