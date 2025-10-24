@@ -1,10 +1,12 @@
-num = 12345
-reversed_num = 0
+def reverse_number(num):
+    reverse_number = 0
+    while num > 0:
+        last_digit = num % 10
+        reverse_number = reverse_number * 10 + last_digit
+        num = num // 10
+    
+    print(reverse_number)
 
-while num>0:
-    last_digit = num % 10
-    reversed_num = reversed_num * 10 + last_digit
-    num = num // 10
+reverse_number(12345)
 
-print(reversed_num) # 54321
 
